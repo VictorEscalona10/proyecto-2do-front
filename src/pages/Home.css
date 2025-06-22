@@ -1,0 +1,104 @@
+.home-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #fff9fb;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.home-title {
+  color: #d65db1;
+  font-size: 36px;
+  margin-bottom: 30px;
+  font-weight: 600;
+  text-shadow: 2px 2px 4px rgba(214, 93, 177, 0.2);
+}
+
+.home-subtitle {
+  color: #ff6b91;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.auth-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 50px;
+}
+
+.auth-button {
+  padding: 14px 35px;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-button {
+  background-color: #ff9671;
+  color: white;
+}
+
+.login-button:hover {
+  background-color: #ff7b54;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(255, 107, 129, 0.3);
+}
+
+.register-button {
+  background-color: #ffc75f;
+  color: white;
+}
+
+.register-button:hover {
+  background-color: #ffb347;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(255, 199, 95, 0.3);
+}
+
+.products-container {
+  margin-top: 50px;
+  padding: 40px;
+  background-color: white;
+  border-radius: 20px;
+  border: 2px dashed #ff9671;
+  box-shadow: 0 8px 16px rgba(255, 107, 145, 0.1);
+}
+
+.products-title {
+  color: #d65db1;
+  margin-bottom: 30px;
+  font-size: 28px;
+  position: relative;
+  display: inline-block;
+}
+
+.products-title:after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 3px;
+  background: linear-gradient(to right, #ff6b91, #ffc75f);
+}
+
+.cupcake-icon {
+  font-size: 24px;
+  margin: 0 5px;
+  color: #ff6b91;
+}
+
+.welcome-message {
+  color: #8b5e83;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
